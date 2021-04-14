@@ -1,0 +1,96 @@
+ 
+  .navbar.nav-link 
+  {
+      font-size: 14px;
+      text-transform: uppercase;
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+  }
+
+  .navbar .nav-item.active
+  {
+      border-left:gold 3px solid ;
+  }
+
+
+  .carousel-item {
+    height: 450px;
+  }
+  
+  .carousel-image-1 {
+    background: url('https://avengersbucketimg.s3.ap-south-1.amazonaws.com/images/img/1.jpg ');
+    background-size: cover;
+  }
+  .carousel-image-2 {
+    background: url(' https://avengersbucketimg.s3.ap-south-1.amazonaws.com/images/img/2.jpg');
+    background-size: cover;
+  }
+  .carousel-image-3 {
+    background: url('https://avengersbucketimg.s3.ap-south-1.amazonaws.com/images/img/4.jpg');
+    background-size: cover;
+  }
+
+
+
+  #home-heading {
+      position:relative;
+      min-height: 200px;
+      background:url(' https://avengersbucketimg.s3.ap-south-1.amazonaws.com/images/img/10.jpg');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      text-align:center;
+      color:rgb(163, 233, 0);
+  }
+
+  
+  .dark-overlay {
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    
+    width: 100%;
+    height: 50%;
+     
+  }
+ 
+
+  #video-play {
+    position: relative;
+    min-height:200px;
+    background:url(' https://avengersbucketimg.s3.ap-south-1.amazonaws.com/images/img/13.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0  350px;
+    text-align: center;
+    color: rgb(202, 74, 14);
+  }
+
+  #video-play a {
+    bottom: 20px;
+    color: rgb(27, 27, 14);
+  }
+
+
+
+  #page-header
+  {
+    height: 210px;
+    background: url(' https://avengersbucketimg.s3.ap-south-1.amazonaws.com/images/img/9.jpg');
+    background-position: 0 -300px;
+    background-attachment: fixed;
+    color: rgb(226, 218, 213);
+    border-bottom: 1px rgb(230, 181, 181) solid;
+    padding-top: 20px;
+    background-repeat:none;
+
+  }
+  .about-img
+  {
+    margin-top: 50px;
+  }
+  p{
+    color: rgb(116, 114, 41);
+    position: left;
+  }
+ 
+
